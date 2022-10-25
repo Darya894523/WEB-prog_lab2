@@ -40,6 +40,8 @@
             p:hover {
                 color: pink;
                 text-shadow: 3px 3px 5px purple;
+                transform: scale(50%);
+                transition: 2s;
             }
             h1:active {
                 font-style: italic;
@@ -61,6 +63,17 @@
                 transform: skew(20deg);
                 color: yellow;
 
+            }
+            p::first-letter {
+                font-size: 25px;
+                font-family: fantasy;
+                color: red;
+                font-weight: bold;
+            }
+            p::first-line {
+                text-decoration: underline;
+                color:yellowgreen;
+                display: block;
             }
             </style>
         </head>
