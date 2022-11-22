@@ -71,3 +71,6 @@ function showAlertfooter () {
 
     document.getElementById('footer').style.backgroundColor = color;
 }
+function Stih (){
+    
+}
