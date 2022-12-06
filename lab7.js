@@ -58,4 +58,24 @@ function Table(){
      
     } 
 }
-
+function Snezh (){
+    let snezhki= document.querySelector('#snezhki');
+    let stepCount=90;
+    for (let i=0; i<stepCount; i++) {
+        snezhki.innerHTML+='<img class= "sneg" src= "11.png"> ';
+    }
+    let snow= document.querySelectorAll('.sneg');
+    let screenWidth=window.screen.width;
+    let screenHeight=window.screen.height;
+    for (let i=0; i<snow.length; i++)
+    {
+     snow[i].style.left = Math.random ()*
+     (screenWidth-100)+'px';
+     snow[i].style.top = Math.random ()*(screenHeight-200)+'px';
+     snow[i].style.width = Math.random ()* 200+'px';
+    }
+}
+function All() {
+    makeStairs();
+    Snezh ();
+}
