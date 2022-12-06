@@ -78,4 +78,20 @@ function Snezh (){
 function All() {
     makeStairs();
     Snezh ();
+    stihi();
+}
+function stihi () {
+ let steps = document.querySelectorAll ('.stix');
+ for (let i=0;i<steps.length;i++){
+    let r = Math.round(Math.random()*255);
+    let g = Math.round(Math.random()*255);
+    let b = Math.round(Math.random()*255);
+    steps[i].style.color='rgb('+ r + ',' + g + ',' + b + ')';
+    r = Math.round(Math.random()*255);
+    g = Math.round(Math.random()*255);
+    b = Math.round(Math.random()*255);
+    steps[i].style.backgroundColor='rgb('+ r + ',' + g + ',' + b + ')';
+    steps[i].style.fontSize=(i+10)+'px';
+    steps[i].style.width=(i*50+180)+'px';
+}
 }
