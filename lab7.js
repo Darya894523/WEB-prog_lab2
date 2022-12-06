@@ -39,8 +39,23 @@ function makeStairs() {
     }
     let steps = document.querySelectorAll('.step');
     for (let i = 0; i<steps.length; i++){
-        steps [i].style.left = (30 + 10*i) + 'px';
-        steps [i].style.top = (300 + 80*i) + 'px';
+        steps [i].style.left = (400 + 10*i) + 'px';
+        steps [i].style.top = (82 + 80*i) + 'px';
         steps[i].innerHTML = 'Блок номер' + (i+1);
     }
 }
+function Table(){ 
+    document.write("<h1>Таблица умножения</h1>"); 
+     
+    for (let j = 16; j<=17;j++){  
+    document.write("<div style=' float:left ; width: 100px;'>"); 
+    for (let i = 1; i <=9; i++)  
+    { 
+    document.write(i + "*" + j + "=" +(i*j) + "<br>"); 
+     
+    }  
+    document.write ("</div>"); 
+     
+    } 
+}
+
