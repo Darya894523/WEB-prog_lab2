@@ -19,7 +19,7 @@ function showAlert() {
             greeting += 'госпожа ';
         }
         else {
-            greeting += 'господин'
+            greeting += 'господин '
         }
     }
     alert (greeting +userName + ' ' + userSurname + '\n' + 'Ваш возраст:' + userAge);
