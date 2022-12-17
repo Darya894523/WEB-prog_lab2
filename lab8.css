@@ -43,3 +43,11 @@ body {
     padding-top: 100px;
     font-style: italic;
 }
+
+.result {
+    font-size: 60px;
+    text-align: center;
+    font-style: italic;
+    background-color: aquamarine;
+    color: gray
+}
