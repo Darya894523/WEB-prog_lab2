@@ -14,6 +14,20 @@ function showDaysCount (params){
     result.innerHTML = 'С даты рождения прошло дней:'+ daysCount;
    
 }
+
+function showDni (){
+
+    let dnii = document.querySelector('input[type=date]');
+    let birthday = new Date (dnii.value);
+    let inputDatee = document.querySelector('input[type=number]');
+    let days = document.getElementById('input-days');
+    let daysRound = (birthday.getTime()/1000/60/60/24)+ days.value*1;
+    let result2 = document.getElementById('result2');
+    daysRound = new Date(daysRound*1000*60*60*24);
+    result2.innerHTML = 'Будущая дата:'+ daysRound.toLocaleDateString("ru-RU");
+
+
+}
 window.addEventListener('load', showDate);
 
 function showTime() {
