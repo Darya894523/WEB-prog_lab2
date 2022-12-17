@@ -12,7 +12,7 @@ function showDaysCount (params){
     let result = document.getElementById('result');
     daysCount = Math.floor(daysCount);
     result.innerHTML = 'С даты рождения прошло дней:'+ daysCount;
-    alert (daysCount);
+   
 }
 window.addEventListener('load', showDate);
 
