@@ -55,3 +55,8 @@ function Focusfan (input){
     input.style.fontSize=28+'px';
     input.style.fontWeight='bold';
 }
+
+function ChangeFunc(input) {
+    let output = document.getElementById ('output');
+    output.innerHTML = input.value;
+}
