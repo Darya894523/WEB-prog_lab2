@@ -42,3 +42,16 @@ window.addEventListener('DOMContentLoaded', function(){
   let coords = document.querySelector('#coords');
   coords.addEventListener('mousemove', showCoords);
 });
+
+function BlurFunc(input){
+input.style.color='green';
+input.style.fontSize='';
+input.style.fontWeight='normal';
+
+}
+
+function Focusfan (input){
+    input.style.color='purple';
+    input.style.fontSize=28+'px';
+    input.style.fontWeight='bold';
+}
