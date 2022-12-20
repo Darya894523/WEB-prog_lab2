@@ -60,3 +60,16 @@ function ChangeFunc(input) {
     let output = document.getElementById ('output');
     output.innerHTML = input.value;
 }
+
+function ChangeFuncDop(input){
+    let new_output = document.getElementById('new_output');
+    new_output.innerHTML = 'Молоко:' + input.value + ' шт';
+}
+function ChangeFuncDop2(input){
+    let new_output = document.getElementById('new_output2');
+    new_output.innerHTML = 'Яйца:' + input.value + ' шт';
+}
+function ChangeFuncDop3(input){
+    let new_output = document.getElementById('new_output3');
+    new_output.innerHTML = 'Сосиски:' + input.value + ' шт';
+}

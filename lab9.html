@@ -26,7 +26,20 @@
             <input type="text" class="three"  value="три" onblur="BlurFunc(this)" onfocus="Focusfan(this)" onclick="ChangeFunc(this)">
         </div>
         <div id="output"></div>
-    </div>
+        <div class="korz">
+            <p><b>Корзина</b></p>
+            Молоко:<input type="number" onchange="ChangeFuncDop (this)"><br>
+            Яйца<input type="number" onchange="ChangeFuncDop2 (this)"><br>
+            Сосиски<input type="number" onchange="ChangeFuncDop3 (this)"><br>
+            <p><b> Ваш заказ: </b></p>
+            <ul>
+                <li id="new_output">Молоко:</li>
+                <li id="new_output2">Яйца:</li>
+                <li id="new_output3">Сосиски:</li>
+            </ul>
+
+        </div>
+   
         <div class="footer">
             Факультет бизнеса, ФБИ-02, 3 курс, 2022
         </div>
